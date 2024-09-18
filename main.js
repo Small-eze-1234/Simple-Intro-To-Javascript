@@ -74,4 +74,29 @@ var number2 =32.2
 // % floor 
 // ** exponential
 console.log(2 ** 3)
+var number3 =9
+console.log(number3)
+// var number3 = number3+5
+ newNumber=number3 
+console.log(newNumber+=6)
+console.log(4 != 4)
+var number_one =2
+var number_two =3
+console.log(number_one && number_two==2)
+console.log(number_one || number_two===2)
+console.log(!(number_two > number_one))
+console.log(number_two++)
+var age = 18.6668687
+age >= 18 ? console.log('You are eligible'):console.log('not eligible')
+
+
+console.log(age.toString())
+Math.PI
+console.log(Math.PI.toPrecision(4))
+console.log(Math.ceil(3.142))
+console.log(Math.random() *10)
+console.log(Math.round(Math.random() *100))
+console.log(Math.max(4,2,64))
+console.log(Math.E)
+
 

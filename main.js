@@ -87,7 +87,7 @@ console.log(number_one || number_two===2)
 console.log(!(number_two > number_one))
 console.log(number_two++)
 var age = 18.6668687
-age >= 18 ? console.log('You are eligible'):console.log('not eligible')
+// age >= 18 ? console.log('You are eligible'):console.log('not eligible')
 
 
 console.log(age.toString())
@@ -99,4 +99,87 @@ console.log(Math.round(Math.random() *100))
 console.log(Math.max(4,2,64))
 console.log(Math.E)
 
+//  var Name=prompt('Please Enter Your Name')
 
+// alert(`welcome ${Name}`)
+var Food =['Rice','Amala','plantain']
+// console.log(Food[1])
+// console.log(Food.length)
+Food.push('Salad')
+console.log(Food)
+Food.pop()
+console.log(Food)
+Food.shift()
+console.log(Food)
+Food.unshift('Spaghetti')
+console.log(Food)
+var Drinks =['coke','fanta','sprite','Baileys','Azul']
+// console.log(Food.concat(Drinks))
+console.log(Drinks.slice(1,4))
+Drinks.splice(2,1,['Guiness'])
+  console.log(Drinks)
+   var goodFootballers =['Rashford','palmer',['cafu','pirlo',['Ronaldo','Messi']]]
+console.log(goodFootballers[2][2][1])
+// goodFootballers .reverse
+// console.log(goodFootballers)
+var arrays=['a','b','f','Z','d','A']
+console.log(arrays.sort())
+// object is not indexed key and values,
+var array = []
+var objects ={
+  name:'Ali',
+  occupation:'developer',
+  isOnline:true,
+  hobbies:['playing ball','cooking']
+}
+console.log(objects.hobbies[1])
+ //date
+ const date = new Date()
+ console.log(date.getMinutes())
+ var seconds = date.getSeconds()
+ var minute =date.getMinutes()
+ var Hours = date.getHours()
+console.log(`${Hours}:${minute}:${seconds}`)
+console.log(Hours+ ':'+minute+ ':' + seconds)
+// conditionals
+//  if and else, switch
+// false in javascript [] is false,"" is false,0 is false
+//   var age =10
+//   if(age > 18){
+//     console.log('you are eligible')
+//   }
+//   else{
+//     console.log('you are not eligible')
+//   }
+// var score = prompt('enter your score')
+// var age = prompt('enter your age')
+// if(score>=180 && age >=18){
+//   alert('you are eligibe for admission')
+// }
+// else if(score>=150 && age >=16){
+//   alert('private school admission')
+// }
+// else if(age >18 || score >180){
+//   alert('college of education')
+// }
+// else{
+//   alert('you are not eligible')
+// }
+var quiz=alert('Welcome To who Wants To Be A Billoniare ')
+var answer=prompt('What Is The Capital Of Oyo state')
+var mark =0
+if(answer.toLowerCase()== 'ibadan'){
+  mark+=2
+  alert(`you have earn ${mark} marks`)
+}
+else{
+  alert('Wrong answer')
+}
+var question_two =prompt('What Is The longest River In The World')
+if(question_two.toLowerCase()== 'nile'){
+  mark+=2
+  alert(`you have earn ${mark} marks`)
+}
+else{
+  alert('Wrong answer')
+}
